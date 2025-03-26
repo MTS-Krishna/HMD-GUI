@@ -28,7 +28,7 @@ HybridMalwareDetector/
 │── data/                  # Dataset directory (Benign & Malware samples)
 │── ml_models/             # Trained model files (SVM, RF, CNN)
 │── feature_extraction/    # Static & Dynamic feature extractors
-│── gui.py                   # PyQt6 GUI implementation
+│── gui.py                 # PyQt6 GUI implementation
 │── requirements.txt       # Dependencies
 ```
 
@@ -46,12 +46,12 @@ pip install -r requirements.txt
 ---
 
 ## 🔥 Usage  
-### 2️⃣ **Run the Malware Detector GUI**  
+### 1️⃣ **Run the Malware Detector GUI**  
 ```bash
 python gui.py
 ```
 
-### 3️⃣ **Detect Malware**  
+### 2️⃣ **Detect Malware**  
 - Upload a PE file for static analysis and CNN-based dynamic analysis.  
 - View classification results & malware probability.  
 
